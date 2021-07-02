@@ -1,0 +1,36 @@
+inicio
+inteiro a = 5 ;
+inteiro b = 10 ;
+inteiro c = 15 ;
+inteiro d = 0 ;
+se ( a > b ) {
+se ( a > c ) {
+escreva ( "maior variavel: a" ) ;
+escreva ( a ) ;
+enquanto ( d < a ) {
+d ++ ;
+escreva ( d ) ;
+}
+}
+}
+se ( b > a ) {
+se ( b > c ) {
+escreva ( "maior variavel: b" ) ;
+escreva ( b ) ;
+enquanto ( d < b ) {
+d ++ ;
+escreva ( d ) ;
+}
+}
+}
+se ( c > a ) {
+se ( c > b ) {
+escreva ( "maior variavel: c" ) ;
+escreva ( c ) ;
+enquanto ( d < c ) {
+d ++ ;
+escreva ( d ) ;
+}
+}
+}
+fim
